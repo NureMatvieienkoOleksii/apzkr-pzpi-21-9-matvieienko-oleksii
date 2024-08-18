@@ -1,0 +1,95 @@
+.equipmentCrudContainer {
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: #1890ff;
+}
+
+.addButton {
+    background-color: #1890ff;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: #40a9ff;
+}
+
+.table {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.actionButton {
+    margin-right: 8px;
+}
+
+.editButton {
+    background-color: #faad14;
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #ffc53d;
+}
+
+.deleteButton {
+    background-color: #ff4d4f;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #ff7875;
+}
+
+.modal {
+    max-width: 600px;
+}
+
+.modalTitle {
+    color: #1890ff;
+}
+
+.form {
+    padding: 20px;
+}
+
+.formItem {
+    margin-bottom: 16px;
+}
+
+.formLabel {
+    font-weight: bold;
+}
+
+.formInput {
+    width: 100%;
+}
+
+.submitButton {
+    background-color: #52c41a;
+    color: white;
+}
+
+.submitButton:hover {
+    background-color: #73d13d;
+}
+
+.error {
+    background-color: #fff1f0;
+    border: 1px solid #ffa39e;
+    color: #cf1322;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}

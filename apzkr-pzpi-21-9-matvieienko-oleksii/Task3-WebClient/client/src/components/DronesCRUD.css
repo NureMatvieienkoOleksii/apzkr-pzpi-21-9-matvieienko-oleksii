@@ -1,0 +1,98 @@
+.dronesCrudContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: #1890ff;
+    margin: 0;
+}
+
+.addButton {
+    background-color: #52c41a;
+    border-color: #52c41a;
+}
+
+.addButton:hover {
+    background-color: #73d13d;
+    border-color: #73d13d;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.actionButton {
+    margin-right: 8px;
+}
+
+.editButton {
+    background-color: #faad14;
+    border-color: #faad14;
+}
+
+.editButton:hover {
+    background-color: #ffc53d;
+    border-color: #ffc53d;
+}
+
+.deleteButton {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+}
+
+.deleteButton:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+}
+
+.modal {
+    max-width: 600px;
+}
+
+.modalTitle {
+    color: #1890ff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formItem {
+    margin-bottom: 16px;
+}
+
+.formLabel {
+    font-weight: bold;
+    color: #333;
+}
+
+.formInput {
+    width: 100%;
+}
+
+.submitButton {
+    align-self: flex-end;
+}
+
+.error {
+    background-color: #fff1f0;
+    border: 1px solid #ffa39e;
+    color: #cf1322;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
